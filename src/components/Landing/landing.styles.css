@@ -1,0 +1,23 @@
+.landing {
+  height: 100vh;
+  width: 100vw;
+  background: url("../../img/landing.jpg") center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing__title {
+  color: #e69430;
+}
+
+.landing__title--type {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.landing__title--name {
+  text-align: center;
+  font-size: 4rem;
+}

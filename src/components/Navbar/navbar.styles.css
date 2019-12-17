@@ -1,0 +1,16 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(50, 40, 29, 0.98);
+}
+
+.navbar__link {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #e69430;
+  padding: 1rem 0;
+}

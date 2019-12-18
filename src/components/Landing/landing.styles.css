@@ -21,3 +21,18 @@
   text-align: center;
   font-size: 4rem;
 }
+
+.landing__separator {
+  text-align: center;
+  font-size: 3rem;
+  color: #e69430;
+  background: rgb(50, 40, 29);
+  padding: 1rem;
+}
+
+.underline {
+  height: 0.2rem;
+  width: 20%;
+  margin: auto;
+  background-color: #e69430;
+}

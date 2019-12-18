@@ -12,6 +12,10 @@ export const Landing = () => {
           <h2 className="landing__title--name">PapaBun</h2>
         </div>
       </div>
+      <div className="landing__separator">
+        <h2>Special Offers</h2>
+        <div className="underline"></div>
+      </div>
       <LandingMeniu title="DINNER" timeStart="16:30" timeEnd="22:00" />
     </div>
   );

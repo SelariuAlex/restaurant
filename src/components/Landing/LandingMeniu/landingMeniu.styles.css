@@ -1,15 +1,22 @@
 .landingMeniu {
   height: 100vh;
   width: 100vw;
-  background: url("../../../img/dinner.jpg") center no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.landingMeniu--dinner {
+  background: url("../../../img/dinner.jpg") center no-repeat;
+}
+
+.landingMeniu--lunch {
+  background: url("../../../img/lunch.jpg") center no-repeat;
+}
+
 .landingMeniu__card {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.6);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,19 +25,30 @@
   padding: 2rem;
 }
 
-@media only screen and (min-width: 600px) {
+.landingMeniu__card--description {
+  padding: 3rem;
+  font-size: 1.8rem;
+}
+
+@media only screen and (min-width: 800px) {
   .landingMeniu {
     position: relative;
   }
 
   .landingMeniu__card {
     width: 40%;
-    height: 40%;
+    height: 60%;
   }
 
   .landingMeniu__card--right {
     position: absolute;
     top: 10%;
-    right: 20%;
+    right: 10%;
+  }
+
+  .landingMeniu__card--left {
+    position: absolute;
+    top: 10%;
+    left: 10%;
   }
 }

@@ -16,7 +16,23 @@ export const Landing = () => {
         <h2>Special Offers</h2>
         <div className="underline"></div>
       </div>
-      <LandingMeniu title="DINNER" timeStart="16:30" timeEnd="22:00" />
+      <LandingMeniu
+        title="LUNCH"
+        timeStart="11:00"
+        timeEnd="14:00"
+        description="Lunch course is popular with Bagna Cauda, ​​where you can get plenty of fresh vegetables. Panini lunch, pasta lunch and meat lunch can be enjoyed according to the season. From the appetizer Bagna Cauda to the main and dessert, forget the hustle and bustle of the day and spend a relaxing time with your close friends."
+        right="landingMeniu__card--left"
+        meniu="landingMeniu--lunch"
+      />
+      <LandingMeniu
+        title="DINNER"
+        timeStart="16:30"
+        timeEnd="22:00"
+        description="You can enjoy an Italian-based dinner course in a calm and warm atmosphere. We offer 5-7 types of courses at reasonable prices for each season.
+        Wines selected mainly from Italy are also available at all times, so you can relax and enjoy your meal."
+        right="landingMeniu__card--right"
+        meniu="landingMeniu--dinner"
+      />
     </div>
   );
 };

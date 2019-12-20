@@ -33,6 +33,14 @@ export const Landing = () => {
         right="landingMeniu__card--right"
         meniu="landingMeniu--dinner"
       />
+      <LandingMeniu
+        title="ALL"
+        timeStart="11:00"
+        timeEnd="22:00"
+        description="From the set menu to the a la carte menus, such as fish plate with a long-run popular menu on one plate and panini plate with a wide variety of panini as its main menu, we have prepared original menus that can only be tasted beautifully."
+        right="landingMeniu__card--left"
+        meniu="landingMeniu--all"
+      />
     </div>
   );
 };

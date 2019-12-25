@@ -1,14 +1,11 @@
 import React from "react";
+import { MeniuList } from "./MeniuList/MeniuList";
+import { meniuList } from "./meniuList";
 
 export const Meniu = () => {
   return (
     <div>
-      <ul>
-        <li>supa</li>
-        <li>gratar</li>
-        <li>friptura</li>
-        <li>cartofi</li>
-      </ul>
+      <MeniuList list={meniuList} />
     </div>
   );
 };

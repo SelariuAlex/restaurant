@@ -1,0 +1,18 @@
+.meniu__list {
+  margin-top: 4rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50vh;
+  font-size: 3rem;
+}
+
+.meniu__list--item {
+  padding: 1rem;
+}
+
+.meniu__list--cost {
+  display: flex;
+  justify-content: space-between;
+}

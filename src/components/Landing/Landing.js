@@ -9,7 +9,7 @@ export const Landing = () => {
       <div className="landing__banner">
         <div className="landing__title">
           <h3 className="landing__title--type">Restaurant</h3>
-          <h2 className="landing__title--name">PapaBun</h2>
+          <h2 className="landing__title--name">PapaSam</h2>
         </div>
       </div>
       <div className="landing__separator">
